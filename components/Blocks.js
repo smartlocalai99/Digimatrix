@@ -1,0 +1,13 @@
+import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
+import { ArrowRight, Check, ChevronRight } from 'lucide-react'
+
+export function Seo({ title, description }) { return <Head><title>{title} | DgITmatrix</title><meta name="description" content={description}/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta property="og:title" content={`${title} | DgITmatrix`}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/></Head> }
+export function Eyebrow({ children, dark=false }) { return <div className={`eyebrow ${dark?'eyebrow-dark':''}`}><i></i>{children}</div> }
+export function ButtonRow() { return <div className="button-row"><Link className="btn btn-orange" href="/contact">Get Free IT Health Check <ArrowRight size={18}/></Link><Link className="btn btn-outline" href="/services">Explore Our Services</Link></div> }
+export function PageHero({ eyebrow, title, text, image='/images/server-room.jpg' }) { return <section className="page-hero"><div className="shell page-hero-grid"><div><Eyebrow dark>{eyebrow}</Eyebrow><h1>{title}</h1><p>{text}</p><ButtonRow/></div><div className="page-hero-img"><Image src={image} alt="DgITmatrix technology infrastructure" fill sizes="(max-width: 900px) 100vw, 42vw" priority/></div></div></section> }
+export function SectionHead({ kicker, title, text, light=false }) { return <div className={`section-head ${light?'light':''}`}><Eyebrow dark={light}>{kicker}</Eyebrow><h2>{title}</h2>{text&&<p>{text}</p>}</div> }
+export function CTA() { return <section className="cta"><div className="shell cta-inner"><div><Eyebrow dark>Start with clarity</Eyebrow><h2>Not sure where your IT stands?</h2><p>We’ll review your current setup, identify the highest-impact risks, and give you a practical next-step plan.</p></div><Link className="btn btn-white" href="/contact">Book a free IT health check <ArrowRight size={18}/></Link></div></section> }
+export function FeatureGrid({ items }) { return <div className="feature-grid">{items.map((x,i)=><article className="feature-card" key={x.title}><span>0{i+1}</span><div className="icon-box">{x.icon}</div><h3>{x.title}</h3><p>{x.text}</p>{x.points&&<ul>{x.points.map(p=><li key={p}><Check size={15}/>{p}</li>)}</ul>}<Link href="/contact">Talk to a specialist <ChevronRight size={16}/></Link></article>)}</div> }
+export function StandardPage({ seo, eyebrow, title, text, image, children }) { return <><Seo title={seo} description={text}/><PageHero eyebrow={eyebrow} title={title} text={text} image={image}/>{children}<CTA/></> }
