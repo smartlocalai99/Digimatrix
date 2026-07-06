@@ -36,8 +36,8 @@ export default function ManagedITServicesKadapa() {
   return (
     <ServicePageTemplate
       path="/managed-it-services-kadapa"
-      seoTitle="Managed IT Services in Kadapa | Proactive IT Management for Businesses | DgITmatrix"
-      metaDescription="DgITmatrix provides managed IT services in Kadapa — proactive monitoring, preventive maintenance, helpdesk support, cloud oversight and reporting for schools, hospitals, offices and businesses."
+      seoTitle="Managed IT Services in Kadapa | Proactive IT | DgITmatrix"
+      metaDescription="Proactive managed IT for Kadapa businesses — monitoring, preventive maintenance, cloud oversight & one accountable team. Get a tailored quote."
       breadcrumbLabel="Managed IT Services"
       h1="Managed IT Services in Kadapa"
       intro="DgITmatrix manages your computers, printers, CCTV, network and cloud systems under one predictable plan — bringing enterprise IT management practices to local Kadapa businesses, schools and hospitals."

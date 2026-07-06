@@ -34,8 +34,8 @@ export default function OfficeITSupportKadapa() {
   return (
     <ServicePageTemplate
       path="/office-it-support-kadapa"
-      seoTitle="Office IT Support & AMC in Kadapa | Business IT Maintenance | DgITmatrix"
-      metaDescription="DgITmatrix provides office IT support, AMC, computer maintenance, printer support, networking, CCTV support, remote support, and managed IT services for businesses in Kadapa."
+      seoTitle="Office IT Support & AMC in Kadapa | DgITmatrix"
+      metaDescription="Monthly & annual IT AMC for Kadapa offices, schools & hospitals — computers, printers, CCTV, network, one accountable team. Get an AMC quote now."
       breadcrumbLabel="Office IT Support & AMC"
       h1="Office IT Support & AMC in Kadapa"
       intro="DgITmatrix provides monthly and annual IT maintenance contracts for offices, schools, hospitals and shops in Kadapa — covering computers, printers, CCTV, networking and cloud, all under one accountable team."

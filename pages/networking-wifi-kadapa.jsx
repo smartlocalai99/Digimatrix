@@ -34,8 +34,8 @@ export default function NetworkingWifiKadapa() {
   return (
     <ServicePageTemplate
       path="/networking-wifi-kadapa"
-      seoTitle="Networking & Wi-Fi Setup in Kadapa | LAN, Router, Firewall & CCTV Network | DgITmatrix"
-      metaDescription="DgITmatrix provides LAN setup, Wi-Fi setup, router configuration, firewall, VPN, network troubleshooting, CCTV network setup, and office networking support in Kadapa."
+      seoTitle="Networking & Wi-Fi Setup in Kadapa | LAN, Router & Firewall"
+      metaDescription="LAN, Wi-Fi, router, firewall & VPN setup in Kadapa for homes & offices. CCTV network setup & slow-internet troubleshooting. Request support now."
       breadcrumbLabel="Networking & Wi-Fi Setup"
       h1="Networking & Wi-Fi Setup in Kadapa"
       intro="DgITmatrix designs and sets up LAN, Wi-Fi, routers, firewalls and VPNs for homes, offices, schools and shops in Kadapa — including reliable networking for CCTV and printers."

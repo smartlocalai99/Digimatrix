@@ -34,8 +34,8 @@ export default function PrinterMaintenanceKadapa() {
   return (
     <ServicePageTemplate
       path="/printer-maintenance-kadapa"
-      seoTitle="Printer Maintenance in Kadapa | Printer Repair & Office Printer Support | DgITmatrix"
-      metaDescription="DgITmatrix provides printer maintenance, printer repair, setup, troubleshooting, network printer configuration, office printer support, and AMC services in Kadapa."
+      seoTitle="Printer Maintenance & Repair in Kadapa | DgITmatrix"
+      metaDescription="Printer repair, servicing & AMC in Kadapa — inkjet, laser, network & billing printers. Same-day paper jam & driver fixes. WhatsApp us now."
       breadcrumbLabel="Printer Maintenance"
       h1="Printer Maintenance in Kadapa"
       intro="From paper jams to network printer setup, DgITmatrix handles printer repair, servicing and AMC for offices, schools, hospitals and shops across Kadapa — onsite and remote."

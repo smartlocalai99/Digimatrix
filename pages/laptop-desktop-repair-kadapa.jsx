@@ -34,8 +34,8 @@ export default function LaptopDesktopRepairKadapa() {
   return (
     <ServicePageTemplate
       path="/laptop-desktop-repair-kadapa"
-      seoTitle="Laptop & Desktop Repair in Kadapa | Computer Hardware Service | DgITmatrix"
-      metaDescription="DgITmatrix provides laptop repair, desktop repair, hardware troubleshooting, Windows installation, upgrades, data backup support, motherboard, SMPS, and computer service in Kadapa."
+      seoTitle="Laptop & Desktop Repair in Kadapa | DgITmatrix"
+      metaDescription="Laptop & desktop repair in Kadapa — hardware fixes, Windows install, RAM/SSD upgrade, motherboard & SMPS support, data backup. Book a repair today."
       breadcrumbLabel="Laptop & Desktop Repair"
       h1="Laptop & Desktop Repair in Kadapa"
       intro="DgITmatrix repairs laptops and desktops for homes, students and businesses in Kadapa — hardware faults, slow systems, upgrades, Windows installation and data backup support, all from one local team."

@@ -35,8 +35,8 @@ export default function CloudMaintenanceKadapa() {
   return (
     <ServicePageTemplate
       path="/cloud-maintenance-kadapa"
-      seoTitle="Cloud Maintenance in Kadapa | Microsoft 365, Azure & Business Cloud Support | DgITmatrix"
-      metaDescription="DgITmatrix provides cloud maintenance, Microsoft 365 support, Azure support, email support, cloud backup guidance, security, remote access, and managed cloud services in Kadapa."
+      seoTitle="Cloud Maintenance in Kadapa | Microsoft 365 & Azure Support"
+      metaDescription="Microsoft 365, Azure & cloud backup support for Kadapa businesses. Email setup, remote access, security guidance. Talk to a cloud expert today."
       breadcrumbLabel="Cloud Maintenance"
       h1="Cloud Maintenance in Kadapa"
       intro="DgITmatrix supports Microsoft 365, Azure, email, backup and cloud security for small and growing businesses in Kadapa — practical cloud maintenance without the enterprise jargon."

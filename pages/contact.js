@@ -2,7 +2,7 @@ import { Clock3, Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import SEO from '@/components/SEO'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import { QuickServiceForm } from '@/components/EnquiryForms'
-import { EMAIL, FULL_ADDRESS, LANDLINE, PRIMARY_PHONE, telLink, whatsappLink } from '@/lib/site'
+import { EMAIL, FULL_ADDRESS, LANDLINE, PRIMARY_PHONE, SERVICE_AREAS, telLink, whatsappLink } from '@/lib/site'
 
 export default function Contact() {
   const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(FULL_ADDRESS)}&output=embed`
@@ -56,6 +56,22 @@ export default function Contact() {
             <div className="mt-6 rounded-xl border border-slate-200 bg-paper p-6 sm:p-8">
               <QuickServiceForm />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-paper py-12">
+        <div className="mx-auto max-w-7xl px-6 text-center">
+          <h2 className="font-display text-[18px] font-extrabold text-navy">Areas We Serve</h2>
+          <p className="mx-auto mt-2 max-w-2xl text-[13.5px] text-slate-500">
+            Based in Kadapa, with onsite and remote support across the wider district.
+          </p>
+          <div className="mt-5 flex flex-wrap justify-center gap-2.5">
+            {SERVICE_AREAS.map((area) => (
+              <span key={area} className="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-[12.5px] font-semibold text-navy">
+                {area}
+              </span>
+            ))}
           </div>
         </div>
       </section>

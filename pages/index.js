@@ -22,8 +22,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="CCTV, Printer, Computer & Cloud IT Support in Kadapa"
-        description="DgITmatrix provides CCTV installation, printer maintenance, laptop and desktop repair, networking, Wi-Fi setup, office AMC, cloud maintenance, and managed IT support for homes, offices, schools, hospitals, shops and businesses in Kadapa."
+        title="CCTV, Printer & Computer IT Support in Kadapa"
+        description="Local IT support in Kadapa — CCTV installation, printer maintenance, computer repair, networking & cloud AMC. ISO 9001 certified. Call or WhatsApp now."
         path="/"
       />
       <SchemaJsonLd schema={[organizationSchema(), localBusinessSchema()]} />

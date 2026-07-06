@@ -36,8 +36,8 @@ export default function CCTVInstallationKadapa() {
   return (
     <ServicePageTemplate
       path="/cctv-installation-kadapa"
-      seoTitle="CCTV Installation in Kadapa | CCTV Camera Setup & Maintenance | DgITmatrix"
-      metaDescription="DgITmatrix provides CCTV installation, CCTV camera setup, maintenance, wiring, DVR/NVR setup, remote viewing, and support for homes, shops, offices, schools, hospitals, and businesses in Kadapa."
+      seoTitle="CCTV Installation in Kadapa | Camera Setup & AMC | DgITmatrix"
+      metaDescription="CCTV camera installation in Kadapa for homes, shops & offices. DVR/NVR setup, mobile viewing, wiring & AMC. Get a free quote on WhatsApp today."
       breadcrumbLabel="CCTV Installation"
       h1="CCTV Installation in Kadapa"
       intro="DgITmatrix installs and maintains CCTV camera systems for homes, shops, offices, schools, hospitals and warehouses across Kadapa — with DVR/NVR setup, mobile viewing and ongoing maintenance handled by one local team."
