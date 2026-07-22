@@ -4,11 +4,13 @@ import Hero from '@/components/Hero'
 import PhotoShowcase from '@/components/PhotoShowcase'
 import LocalServiceCards from '@/components/LocalServiceCards'
 import WhyKadapaBusinessesChooseUs from '@/components/WhyKadapaBusinessesChooseUs'
+import FounderProfile from '@/components/FounderProfile'
 import EnterpriseHeroBand from '@/components/EnterpriseHeroBand'
 import TopicMarquee from '@/components/TopicMarquee'
 import ServicePackages from '@/components/ServicePackages'
 import IndustriesServed from '@/components/IndustriesServed'
 import TrustBadges from '@/components/TrustBadges'
+import GoogleReviews from '@/components/GoogleReviews'
 import BrandMarquee from '@/components/BrandMarquee'
 import CloudEnterpriseSection from '@/components/CloudEnterpriseSection'
 import TrainingPreview from '@/components/TrainingPreview'
@@ -34,9 +36,11 @@ export default function Home() {
       <PhotoShowcase />
       <LocalServiceCards />
       <WhyKadapaBusinessesChooseUs />
+      <FounderProfile layout="homepage" />
       <ServicePackages />
       <IndustriesServed />
       <TrustBadges />
+      <GoogleReviews />
       <BrandMarquee />
       <CloudEnterpriseSection />
       <TrainingPreview />

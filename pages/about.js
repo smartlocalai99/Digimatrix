@@ -3,6 +3,7 @@ import { Check } from 'lucide-react'
 import SEO from '@/components/SEO'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ContactCTA from '@/components/ContactCTA'
+import FounderProfile from '@/components/FounderProfile'
 
 const VALUES = [
   'Outcome-led recommendations, not upselling', 'Honest, clear communication in plain language',
@@ -62,8 +63,8 @@ export default function About() {
               ))}
             </ul>
           </div>
-          <div className="relative h-72 overflow-hidden rounded-xl lg:h-96">
-            <Image src="/images/training.jpg" alt="DgITmatrix technology team in Kadapa" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+          <div className="relative">
+            <FounderProfile layout="about" />
           </div>
         </div>
       </section>
